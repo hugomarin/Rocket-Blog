@@ -1,10 +1,7 @@
 @import "compass/css3/border-radius";
 @import "compass/css3/box-shadow";
 
-
-
-
-/*Variables*/
+// Variables
 
 $primary: #1da2df;
 $secondary: #09001d;
@@ -19,14 +16,14 @@ $p-font: "pt-sans";
 
 $base-font-size: 18px;
 
-/*Function*/
+// Function
 
 @function em($px, $base: $base-font-size) {
     @return ($px / $base) * 1em;
 }
 
 
-/*Aux*/
+// Aux
 
 .no-margin {
 	margin: 0;
