@@ -7,25 +7,81 @@
 		<div class="row">
 			
 			<div class="six columns">
-				<article class="main">
-					
-					<div class="article-img">
-						{{ "365x197" | placeholder | image_tag }}
-					</div>
-					<section class="article-text">
-					<h5 class="no-margin"><small>FINANZAS</small></h5>
-					<header>
-						<h4 class="subheader no-margin"><a href="#">6 ideas anticuadas, y actualizadas, sobre el dinero</a></h4>
-					</header>
-					<p>No importa cuánto ganen, algunas personas se endeudas, mientras otras, por más modestos sean sus ingresos, no. ¿Por qué?</p>
-					</section>
-				</article>
+				{% include "article-main" %}
 			</div>
 			
+			<div class="six columns">
+				{% include "article-main" %}
+			</div>
+			
+			<div class="six columns">
+				{% include "article-main" %}
+			</div>
+			
+			<div class="six columns">
+				{% include "article-main" %}
+			</div>
+			
+			<div class="six columns">
+				{% include "article-main" %}
+			</div>
+			
+			<div class="six columns">
+				{% include "article-main" %}
+			</div>
+			
+		</div>
+		
+		<div class="row">
+			<div class="twelve columns">
+				{% include "pagination" %}
+			</div>
 		</div>
 	</div>
 
 	<aside class="three columns">
+		
+		<div class="search-blog">
+			<input type="search" name="" value="" placeholder="Buscar artículos" />
+		</div>
+		
+		<div class="more-read">
+			<h3 class="aside-title uppercase">Artículos más leídos</h3>
+			<ul class="list-article">
+				<li>
+					<h5>ABR 29 / <strong>METAS</strong></h5>
+					<h4><a href="http://">8 características de las personas sin deudas</a></h4> 
+				</li>
+				<li>
+					<h5>ABR 29 / <strong>METAS</strong></h5>
+					<h4><a href="http://">8 características de las personas sin deudas</a></h4> 
+				</li>
+				<li>
+					<h5>ABR 29 / <strong>METAS</strong></h5>
+					<h4><a href="http://">8 características de las personas sin deudas</a></h4> 
+				</li>
+				<li>
+					<h5>ABR 29 / <strong>METAS</strong></h5>
+					<h4><a href="http://">8 características de las personas sin deudas</a></h4> 
+				</li>
+			</ul>
+		</div>
+		
+		<div class="tips">
+			<h3 class="aside-title uppercase">Consejos exclusivos</h3>
+			<p class="small">Quieres recibir tips y consejos finacieros exclusivos. Registrate en nuestra lista de correos. Prometemos no enviarte SPAM.</p>
+			<label>Correo electrónico</label>
+			<input type="text" name="" value="" />
+			<input type="button" name="" value="quiero suscribirme" />
+			
+		</div>
+		
+		<div class="follow">
+			<h3 class="aside-title uppercase">Síguenos</h3>
+		</div>
+		
+		
+	
 	</aside>
   
   </div>

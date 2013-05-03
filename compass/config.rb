@@ -19,5 +19,4 @@ cache = true
 
 color_output = false # required for Mixture
 
-require 'modular-scale'
 
