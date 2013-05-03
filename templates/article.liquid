@@ -1,0 +1,34 @@
+{% block content %}
+	{% include "inner-header" %}  
+  
+  <div class="row">
+
+	<div class="nine columns">
+		<div class="row">
+			<div class="two columns">
+			<div class="date">
+				<span class="day">29</span> 
+				<span class="month">Abr</span>
+			</div>
+			</div>
+			<div class="ten columns">
+			{{ "745x365" | placeholder | image_tag }}
+			<h1>6 ideas anticuadas, y actualizadas, sobre el dinero</h1>
+			{% include "text" %}
+			
+			</div>
+		</div>
+		
+		 
+	</div>
+
+	<aside class="three columns">
+		{% include "sidebar" %}		
+	</aside>
+  
+  </div>
+
+  <!-- End Main Content and Sidebar -->
+{% endblock %}
+
+ 
