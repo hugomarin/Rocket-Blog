@@ -3,23 +3,46 @@
   
   <div class="row">
 
-	<div class="nine columns">
+	<div class="nine columns article">
 		<div class="row">
-			<div class="two columns">
+			<div class="one columns">
 			<div class="date">
 				<span class="day">29</span> 
 				<span class="month">Abr</span>
 			</div>
 			</div>
-			<div class="ten columns">
-			{{ "745x365" | placeholder | image_tag }}
-			<h1>6 ideas anticuadas, y actualizadas, sobre el dinero</h1>
-			{% include "text" %}
-			
+			<div class="eleven columns">
+				{{ "745x365" | placeholder | image_tag }}
+				<h3 class="category-title">Finanzas</h3>
+				<h1 class="no-margin">6 ideas anticuadas, y actualizadas, sobre el dinero</h1>
+				<div class="blog-content">
+					{% include "text" %}
+				</div>
+				
+				<div class="row">
+					<div class="twelve columns">
+						<div class="tags">
+						{% include "tags" %}
+						</div>
+					</div>
+					
+					<div class="twelve columns">
+						<div class="social">
+						{% include "social" %}
+						</div>
+					</div>
+					
+					<div class="twelve columns">
+						<div class="recommend-article">
+						<h5>Artículos recomendados</h5>
+						{% include "article-recommend" %}
+						{% include "article-recommend" %}
+						</div>
+					</div>
+				</div>
+				
 			</div>
-		</div>
-		
-		 
+		</div>	 
 	</div>
 
 	<aside class="three columns">
