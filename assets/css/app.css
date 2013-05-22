@@ -396,6 +396,10 @@ span.month {
   margin-left: auto;
 }
 
+.date.article {
+  margin-top: 2.2em;
+}
+
 .main.recommend {
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px;
@@ -474,14 +478,19 @@ ul.list-article h4 a {
   margin-bottom: .5em;
 }
 
+article .category-title {
+  margin-top: 0;
+}
+
 .blog-content {
   margin-top: 1.5em;
   margin-bottom: .5em;
 }
 .blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6, .blog-content li, .blog-content blockquote {
   font-family: "pt-sans";
+  margin-top: 1.5em;
 }
-.blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6 {
+.blog-content h1, .blog-content h2, .blog-content h3, .blog-content h4 {
   letter-spacing: -1px;
   font-weight: bold;
 }
@@ -492,6 +501,13 @@ ul.list-article h4 a {
   margin-top: 1em;
   font-size: 1em;
   line-height: 1.4em;
+  font-style: italic;
+}
+.blog-content li {
+  list-style-position: outside;
+  margin-left: 1em;
+  margin-top: .5em;
+  font-size: .95em;
 }
 
 .social {
@@ -528,9 +544,14 @@ ul.list-article h4 a {
   color: #48b5e7;
 }
 
+.entry-author {
+  margin-bottom: 0;
+  margin-top: .8em;
+}
+
 .entry-author .avatar {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   max-width: none;
   vertical-align: middle;
   margin-right: 5px;
@@ -539,4 +560,16 @@ ul.list-article h4 a {
   -ms-border-radius: 32px;
   -o-border-radius: 32px;
   border-radius: 32px;
+}
+
+.autor {
+  font-size: .8em;
+  color: #a6acb5;
+}
+
+.readtime p {
+  font-size: .8em;
+  height: 40px;
+  line-height: 40px;
+  color: #a6acb5;
 }
