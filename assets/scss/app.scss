@@ -282,7 +282,7 @@ p.small, .excerpt p {
 	margin-top: 0;
 	margin-right: 0;
 }
-	
+		
 }
  
 .facebook { background-color: #3b5998; }
@@ -425,6 +425,9 @@ span.month {
 .readmore {
 	color: $quaternary;
 	font: .8em $p-font;
+	position: absolute;
+	bottom: 2.5em;
+	
 }
 
 /*Pagination*/

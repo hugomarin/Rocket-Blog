@@ -415,6 +415,8 @@ span.month {
 .readmore {
   color: #f07922;
   font: 0.8em "pt-sans";
+  position: absolute;
+  bottom: 2.5em;
 }
 
 /*Pagination*/
